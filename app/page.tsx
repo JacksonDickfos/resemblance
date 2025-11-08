@@ -1,13 +1,19 @@
+import Image from 'next/image'
+
 export default function Home() {
   return (
-    <main className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100">
+    <main className="min-h-screen flex items-center justify-center" style={{ backgroundColor: '#222222' }}>
       <div className="text-center">
-        <h1 className="text-6xl font-bold text-gray-900 mb-4">
-          Resemblance
-        </h1>
-        <p className="text-xl text-gray-600">
-          Welcome to your new project
-        </p>
+        <div className="mb-8 flex justify-center">
+          <Image
+            src="/logo.png"
+            alt="Resemblance Logo"
+            width={400}
+            height={400}
+            priority
+            className="max-w-full h-auto"
+          />
+        </div>
       </div>
     </main>
   )
