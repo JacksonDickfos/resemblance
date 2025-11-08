@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex items-center justify-center" style={{ backgroundColor: '#222222' }}>
+    <main className="min-h-screen flex items-center justify-center relative z-10">
       <div className="text-center">
         <div className="mb-8 flex justify-center">
           <Image
