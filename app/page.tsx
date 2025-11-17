@@ -357,17 +357,6 @@ export default function Home() {
           
           <form className="bg-gradient-to-br from-gray-900 to-black border border-gray-800 rounded-lg p-8 space-y-6">
             <div>
-              <label htmlFor="name" className="block text-gray-300 mb-2">Name</label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:border-white transition-colors"
-                required
-              />
-            </div>
-            
-            <div>
               <label htmlFor="email" className="block text-gray-300 mb-2">Email</label>
               <input
                 type="email"
@@ -393,7 +382,7 @@ export default function Home() {
               type="submit"
               className="w-full px-8 py-4 bg-gradient-to-r from-white to-gray-300 text-black font-bold rounded-lg hover:from-gray-300 hover:to-white transition-all duration-300 transform hover:scale-105"
             >
-              Send Message
+              Submit
             </button>
           </form>
         </div>
