@@ -139,7 +139,7 @@ export default function Home() {
                 Resemblance.
               </h1>
               <p className="text-xl md:text-2xl text-gray-400 mb-8">
-                A brand as premium as your closest relationship.
+                A brand as premium as your closest connections.
               </p>
               <div className="flex justify-center">
                 <a
