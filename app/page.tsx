@@ -256,19 +256,6 @@ export default function Home() {
               Send Message
             </button>
           </form>
-          
-          <div className="mt-8 text-center space-y-4">
-            <div className="flex justify-center gap-6">
-              <a
-                href="https://www.instagram.com/resemblance.io_/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition-colors"
-              >
-                Instagram
-              </a>
-            </div>
-          </div>
         </div>
       </section>
 
