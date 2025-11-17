@@ -136,9 +136,7 @@ export default function Home() {
             {/* Content - Centered Below Logo */}
             <div className="text-center animate-fade-in-delay">
               <h1 className="text-6xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-gray-300 to-white bg-clip-text text-transparent">
-                Two Brothers.
-                <br />
-                One Resemblance.
+                Resemblance
               </h1>
               <p className="text-xl md:text-2xl text-gray-400 mb-8">
                 We build, create, and occasionally make sense.
