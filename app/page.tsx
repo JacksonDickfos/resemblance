@@ -109,7 +109,6 @@ export default function Home() {
           <div className="flex items-center justify-center">
             <div className="flex gap-6">
               <a href="#ventures" className="text-gray-400 hover:text-white transition-colors">Ventures</a>
-              <a href="#work" className="text-gray-400 hover:text-white transition-colors">Work With Us</a>
               <a href="#contact" className="text-gray-400 hover:text-white transition-colors">Contact</a>
             </div>
           </div>
@@ -122,14 +121,14 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center">
             {/* Logo - Centered Above */}
             <div className="flex justify-center animate-fade-in mb-12">
-              <div className="relative">
+              <div className="relative w-64 h-64 md:w-80 md:h-80">
                 <Image
                   src="/logo.png"
                   alt="Resemblance Logo"
                   width={400}
                   height={400}
                   priority
-                  className="max-w-full h-auto opacity-90"
+                  className="w-full h-full object-cover rounded-full opacity-90"
                 />
               </div>
             </div>
@@ -216,58 +215,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Work With Us Section */}
-      <section id="work" className="py-20 px-6">
-        <div className="container mx-auto max-w-4xl">
-          <h2 className="text-5xl font-bold text-center mb-4 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
-            Work With Us
-          </h2>
-          <p className="text-center text-gray-400 text-lg mb-12">
-            Let&apos;s build something together
-          </p>
-          
-          <div className="grid md:grid-cols-3 gap-6 mb-12">
-            <div className="bg-gradient-to-br from-gray-900 to-black border border-gray-800 rounded-lg p-6 text-center">
-              <div className="text-3xl mb-4">💼</div>
-              <h3 className="text-xl font-bold mb-3">Consulting</h3>
-              <p className="text-gray-400 text-sm">
-                Business strategy, tech solutions, and fitness expertise
-              </p>
-            </div>
-            
-            <div className="bg-gradient-to-br from-gray-900 to-black border border-gray-800 rounded-lg p-6 text-center">
-              <div className="text-3xl mb-4">🤝</div>
-              <h3 className="text-xl font-bold mb-3">Partnerships</h3>
-              <p className="text-gray-400 text-sm">
-                Brand collaborations and strategic alliances
-              </p>
-            </div>
-            
-            <div className="bg-gradient-to-br from-gray-900 to-black border border-gray-800 rounded-lg p-6 text-center">
-              <div className="text-3xl mb-4">🎤</div>
-              <h3 className="text-xl font-bold mb-3">Speaking</h3>
-              <p className="text-gray-400 text-sm">
-                Media appearances and event engagements
-              </p>
-            </div>
-          </div>
-          
-          <div className="text-center">
-            <a
-              href="#contact"
-              className="px-8 py-4 bg-gradient-to-r from-white to-gray-300 text-black font-bold rounded-lg hover:from-gray-300 hover:to-white transition-all duration-300 transform hover:scale-105 inline-block"
-            >
-              Collaborate with the Brothers
-            </a>
-          </div>
-        </div>
-      </section>
-
       {/* Contact Section */}
       <section id="contact" className="py-20 px-6">
         <div className="container mx-auto max-w-2xl">
           <h2 className="text-5xl font-bold text-center mb-4 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
-            Get In Touch
+            Invest With Us
           </h2>
           <p className="text-center text-gray-400 text-lg mb-12">
             Let&apos;s start a conversation
