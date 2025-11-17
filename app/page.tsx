@@ -212,7 +212,7 @@ export default function Home() {
             Invest With Us
           </h2>
           <p className="text-center text-gray-400 text-lg mb-12">
-            Let&apos;s start a conversation
+            Get in on the ground floor of our next venture.
           </p>
           
           <form className="bg-gradient-to-br from-gray-900 to-black border border-gray-800 rounded-lg p-8 space-y-6">
