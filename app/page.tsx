@@ -108,8 +108,8 @@ export default function Home() {
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-center">
             <div className="flex gap-6">
-              <a href="#ventures" className="text-gray-400 hover:text-white transition-colors">Ventures</a>
-              <a href="#contact" className="text-gray-400 hover:text-white transition-colors">Contact</a>
+              <a href="#ventures" className="text-gray-400 hover:text-white transition-colors">Our Ventures</a>
+              <a href="#contact" className="text-gray-400 hover:text-white transition-colors">Invest With Us</a>
             </div>
           </div>
         </div>
@@ -141,20 +141,12 @@ export default function Home() {
               <p className="text-xl md:text-2xl text-gray-400 mb-8">
                 A brand as premium as your closest relationship.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <div className="flex justify-center">
                 <a
-                  href="https://www.instagram.com/resemblance.io_/"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="#contact"
                   className="px-8 py-4 bg-gradient-to-r from-white to-gray-300 text-black font-bold rounded-lg hover:from-gray-300 hover:to-white transition-all duration-300 transform hover:scale-105 shadow-lg"
                 >
-                  Follow Us on Instagram
-                </a>
-                <a
-                  href="#ventures"
-                  className="px-8 py-4 border-2 border-white text-white font-bold rounded-lg hover:bg-white hover:text-black transition-all duration-300 transform hover:scale-105"
-                >
-                  Explore Our Work
+                  Invest With Us
                 </a>
               </div>
             </div>
