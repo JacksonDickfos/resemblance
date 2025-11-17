@@ -150,7 +150,10 @@ export default function Home() {
 
       {/* Hero Section */}
       <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
-        <div className="container mx-auto px-6 py-20">
+        {/* Animated Metallic Background */}
+        <div className="hero-metallic-bg"></div>
+        
+        <div className="container mx-auto px-6 py-20 relative z-10">
           <div className="flex flex-col items-center justify-center">
             {/* Logo - Centered Above */}
             <div className="flex justify-center animate-fade-in mb-12">
@@ -202,8 +205,8 @@ export default function Home() {
                     <div className="text-gray-400 text-sm">Finance App Interface</div>
                   </div>
                 </div>
-              </div>
-              
+            </div>
+            
               {/* Content Right */}
               <div>
                 <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
@@ -239,7 +242,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-
+          
           {/* Resemblance Apparel - Text Left, Picture Right */}
           <div className="mb-32">
             <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -274,8 +277,8 @@ export default function Home() {
                   {hasVotedApparel && (
                     <span className="text-gray-500 text-sm">You&apos;ve voted!</span>
                   )}
-                </div>
-              </div>
+                          </div>
+                          </div>
               
               {/* Image Right */}
               <div className="relative h-96 bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg border border-gray-700 overflow-hidden">
@@ -283,11 +286,11 @@ export default function Home() {
                   <div className="text-center p-8">
                     <div className="text-6xl mb-4 font-bold text-white bg-gray-700 w-24 h-24 rounded-full flex items-center justify-center mx-auto">R</div>
                     <div className="text-gray-400 text-sm mt-4">Premium T-Shirt</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
 
           {/* Resemblance Fitness - Picture Left, Text Right */}
           <div className="mb-32">
@@ -300,17 +303,17 @@ export default function Home() {
                       <div className="text-4xl mb-2">💪</div>
                       <div className="text-white text-sm font-semibold">Resemblance</div>
                       <div className="text-gray-400 text-xs mt-1">Fitness</div>
-                    </div>
-                    <div className="text-gray-400 text-sm mt-4">iPhone App Interface</div>
-                  </div>
-                </div>
               </div>
+                    <div className="text-gray-400 text-sm mt-4">iPhone App Interface</div>
+            </div>
+          </div>
+        </div>
               
               {/* Content Right */}
               <div>
                 <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
                   Resemblance Fitness
-                </h2>
+          </h2>
                 <p className="text-gray-300 text-lg mb-6 leading-relaxed">
                   A comprehensive fitness platform that turns consistency into competition. We&apos;re building an iPhone app that gamifies fitness tracking, making workouts engaging, social, and rewarding. No more abandoned gym memberships or forgotten fitness goals.
                 </p>
@@ -337,11 +340,11 @@ export default function Home() {
                   {hasVotedFitness && (
                     <span className="text-gray-500 text-sm">You&apos;ve voted!</span>
                   )}
-                </div>
-              </div>
+            </div>
+            </div>
             </div>
           </div>
-
+          
         </div>
       </section>
 

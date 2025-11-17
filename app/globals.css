@@ -106,3 +106,87 @@ section.visible {
   transform: translateY(0);
 }
 
+/* Metallic Sheen Animation */
+@keyframes metallic-shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes metallic-rotate {
+  0% {
+    transform: rotate(0deg) scale(1);
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: rotate(360deg) scale(1.2);
+    opacity: 0.3;
+  }
+}
+
+@keyframes metallic-pulse {
+  0%, 100% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+
+.hero-metallic-bg {
+  position: absolute;
+  inset: 0;
+  background: 
+    radial-gradient(circle at 20% 50%, rgba(192, 192, 192, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(169, 169, 169, 0.12) 0%, transparent 50%),
+    radial-gradient(circle at 40% 20%, rgba(211, 211, 211, 0.1) 0%, transparent 50%),
+    linear-gradient(135deg, #000000 0%, #0a0a0a 50%, #000000 100%);
+  overflow: hidden;
+}
+
+.hero-metallic-bg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(192, 192, 192, 0.1) 25%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(192, 192, 192, 0.1) 75%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  animation: metallic-shimmer 8s ease-in-out infinite;
+  mix-blend-mode: overlay;
+}
+
+.hero-metallic-bg::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: conic-gradient(
+    from 0deg,
+    transparent 0deg,
+    rgba(192, 192, 192, 0.08) 45deg,
+    rgba(255, 255, 255, 0.12) 90deg,
+    rgba(192, 192, 192, 0.08) 135deg,
+    transparent 180deg,
+    rgba(169, 169, 169, 0.08) 225deg,
+    rgba(255, 255, 255, 0.12) 270deg,
+    rgba(169, 169, 169, 0.08) 315deg,
+    transparent 360deg
+  );
+  animation: metallic-rotate 20s linear infinite;
+  opacity: 0.3;
+}
+
