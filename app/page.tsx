@@ -113,7 +113,6 @@ export default function Home() {
             <div className="hidden md:flex gap-6">
               <a href="#about" className="text-gray-400 hover:text-white transition-colors">About</a>
               <a href="#ventures" className="text-gray-400 hover:text-white transition-colors">Ventures</a>
-              <a href="#feed" className="text-gray-400 hover:text-white transition-colors">Feed</a>
               <a href="#work" className="text-gray-400 hover:text-white transition-colors">Work With Us</a>
               <a href="#contact" className="text-gray-400 hover:text-white transition-colors">Contact</a>
             </div>
@@ -265,34 +264,6 @@ export default function Home() {
                 )}
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Instagram Feed Section */}
-      <section id="feed" className="py-20 px-6">
-        <div className="container mx-auto max-w-6xl">
-          <h2 className="text-5xl font-bold text-center mb-4 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
-            What We&apos;re Up To
-          </h2>
-          <p className="text-center text-gray-400 text-lg mb-12">
-            Follow our journey in real-time
-          </p>
-          
-          <div className="bg-gradient-to-br from-gray-900 to-black border border-gray-800 rounded-lg p-8">
-            <div className="flex flex-col items-center justify-center min-h-[400px]">
-              <p className="text-gray-400 mb-6 text-center">
-                Connect with us on Instagram to see our latest updates, behind-the-scenes content, and daily adventures.
-              </p>
-              <a
-                href="https://www.instagram.com/resemblance.io_/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-8 py-4 bg-gradient-to-r from-purple-600 via-pink-600 to-orange-500 text-white font-bold rounded-lg hover:opacity-90 transition-all duration-300 transform hover:scale-105"
-              >
-                View @resemblance.io_ on Instagram
-              </a>
-            </div>
           </div>
         </div>
       </section>
