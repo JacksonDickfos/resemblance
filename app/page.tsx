@@ -111,7 +111,6 @@ export default function Home() {
               Resemblance
             </a>
             <div className="hidden md:flex gap-6">
-              <a href="#about" className="text-gray-400 hover:text-white transition-colors">About</a>
               <a href="#ventures" className="text-gray-400 hover:text-white transition-colors">Ventures</a>
               <a href="#work" className="text-gray-400 hover:text-white transition-colors">Work With Us</a>
               <a href="#contact" className="text-gray-400 hover:text-white transition-colors">Contact</a>
@@ -173,46 +172,6 @@ export default function Home() {
                 </a>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* About Section */}
-      <section id="about" className="py-20 px-6">
-        <div className="container mx-auto max-w-4xl">
-          <h2 className="text-5xl font-bold text-center mb-4 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
-            Two Brothers. One Vision.
-          </h2>
-          <p className="text-center text-gray-400 text-lg mb-12">
-            We turn ideas into ventures, and ventures into movements.
-          </p>
-          
-          <div className="grid md:grid-cols-2 gap-12 mb-12">
-            <div className="text-center md:text-right animate-slide-in-left">
-              <div className="inline-block p-6 bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg border border-gray-700">
-                <h3 className="text-3xl font-bold mb-3">Corb</h3>
-                <p className="text-gray-300 mb-4">Physio • Performance • Health • Lifestyle</p>
-                <p className="text-gray-400">
-                  The movement specialist. Turning bodies into machines and rehab into results.
-                </p>
-              </div>
-            </div>
-            
-            <div className="text-center md:text-left animate-slide-in-right">
-              <div className="inline-block p-6 bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg border border-gray-700">
-                <h3 className="text-3xl font-bold mb-3">Jack</h3>
-                <p className="text-gray-300 mb-4">Private Equity • Business Strategy • Tech • Finance</p>
-                <p className="text-gray-400">
-                  The strategist. Building businesses that matter and tech that moves markets.
-                </p>
-              </div>
-            </div>
-          </div>
-          
-          <div className="text-center">
-            <p className="text-2xl font-semibold text-gray-300 italic">
-              &ldquo;Two brothers that look nothing alike.&rdquo;
-            </p>
           </div>
         </div>
       </section>
