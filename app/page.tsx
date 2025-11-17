@@ -141,7 +141,10 @@ export default function Home() {
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-center">
             <div className="flex gap-6">
-              <a href="#ventures" className="text-gray-400 hover:text-white transition-colors">Our Ventures</a>
+              <a href="#home" className="text-gray-400 hover:text-white transition-colors">Home</a>
+              <a href="#finance" className="text-gray-400 hover:text-white transition-colors">Finance</a>
+              <a href="#apparel" className="text-gray-400 hover:text-white transition-colors">Apparel</a>
+              <a href="#fitness" className="text-gray-400 hover:text-white transition-colors">Fitness</a>
               <a href="#contact" className="text-gray-400 hover:text-white transition-colors">Invest With Us</a>
             </div>
           </div>
@@ -195,7 +198,7 @@ export default function Home() {
         <div className="container mx-auto max-w-7xl">
           
           {/* Resemblance Finance - Picture Left, Text Right */}
-          <div className="mb-32">
+          <div id="finance" className="mb-32 scroll-mt-20">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               {/* Image Left */}
               <div className="relative h-96 bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg border border-gray-700 overflow-hidden">
@@ -244,7 +247,7 @@ export default function Home() {
           </div>
           
           {/* Resemblance Apparel - Text Left, Picture Right */}
-          <div className="mb-32">
+          <div id="apparel" className="mb-32 scroll-mt-20">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               {/* Content Left */}
               <div>
@@ -293,7 +296,7 @@ export default function Home() {
                   </div>
 
           {/* Resemblance Fitness - Picture Left, Text Right */}
-          <div className="mb-32">
+          <div id="fitness" className="mb-32 scroll-mt-20">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               {/* Image Left */}
               <div className="relative h-96 bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg border border-gray-700 overflow-hidden">
