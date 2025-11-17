@@ -106,23 +106,12 @@ export default function Home() {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-black/50 backdrop-blur-md border-b border-gray-800">
         <div className="container mx-auto px-6 py-4">
-          <div className="flex items-center justify-between">
-            <a href="#home" className="text-2xl font-bold bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
-              Resemblance
-            </a>
-            <div className="hidden md:flex gap-6">
+          <div className="flex items-center justify-center">
+            <div className="flex gap-6">
               <a href="#ventures" className="text-gray-400 hover:text-white transition-colors">Ventures</a>
               <a href="#work" className="text-gray-400 hover:text-white transition-colors">Work With Us</a>
               <a href="#contact" className="text-gray-400 hover:text-white transition-colors">Contact</a>
             </div>
-            <a
-              href="https://www.instagram.com/resemblance.io_/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-4 py-2 bg-gradient-to-r from-purple-600 via-pink-600 to-orange-500 text-white text-sm font-bold rounded-lg hover:opacity-90 transition-all"
-            >
-              Instagram
-            </a>
           </div>
         </div>
       </nav>
@@ -130,9 +119,9 @@ export default function Home() {
       {/* Hero Section */}
       <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
         <div className="container mx-auto px-6 py-20">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            {/* Left Side - Logo */}
-            <div className="flex justify-center md:justify-end animate-fade-in">
+          <div className="flex flex-col items-center justify-center">
+            {/* Logo - Centered Above */}
+            <div className="flex justify-center animate-fade-in mb-12">
               <div className="relative">
                 <Image
                   src="/logo.png"
@@ -145,8 +134,8 @@ export default function Home() {
               </div>
             </div>
             
-            {/* Right Side - Content */}
-            <div className="text-center md:text-left animate-fade-in-delay">
+            {/* Content - Centered Below Logo */}
+            <div className="text-center animate-fade-in-delay">
               <h1 className="text-6xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-gray-300 to-white bg-clip-text text-transparent">
                 Two Brothers.
                 <br />
@@ -155,7 +144,7 @@ export default function Home() {
               <p className="text-xl md:text-2xl text-gray-400 mb-8">
                 We build, create, and occasionally make sense.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
                   href="https://www.instagram.com/resemblance.io_/"
                   target="_blank"
