@@ -139,7 +139,7 @@ export default function Home() {
                 Resemblance
               </h1>
               <p className="text-xl md:text-2xl text-gray-400 mb-8">
-                We build, create, and occasionally make sense.
+                A brand as a premium as your closest relationship.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
